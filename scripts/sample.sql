@@ -1,0 +1,3 @@
+CREATE TEMPORARY TABLE temp (tweetID int PRIMARY KEY);
+LOAD DATA LOCAL INFILE 'tweets_sample.ids' INTO TABLE temp;
+SELECT t1.* FROM Tweets_SD_TJ t1 NATURAL JOIN temp

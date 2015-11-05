@@ -1,0 +1,1 @@
+:cat homeInferences_user.tsv | tr -d '[' | tr -d ']' | gsed 's/\s\+/\t/g' | sed 's/[[:blank:]]*$//' > tmp

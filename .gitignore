@@ -1,0 +1,12 @@
+data/
+scripts/reverseGeolocation.sh
+
+
+.RData
+.Rproj.user
+*.Rproj
+.RHistory
+
+.DS_Store
+
+*.ids

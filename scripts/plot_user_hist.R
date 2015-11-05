@@ -1,0 +1,6 @@
+library(ggplot2)
+setwd("~/Workspace/AffectiveComputing")
+all_users <- read.table("all_users.counts", quote="\"")
+names(all_users) <- c("counts", "id")
+p <- ggplot(all_users, aes(x = id, y = counts)) + geom_bar(stat = "identity", binwidth=.8)
+ggsave(filename="hist_users.png", plot = p)
