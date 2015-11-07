@@ -1,9 +1,11 @@
 \documentclass[11pt]{article}
-\usepackage{amsmath,amsfonts,amssymb,float,bbm,url}
+\usepackage{amsmath,amsfonts,amssymb,float,bbm,url, graphicx}
 
 \title{}
 \author{}
 \date{\today}
+
+\graphicspath{{imgs/}}
 
 \begin{document}
 
@@ -50,7 +52,17 @@ We assume that similar words must have similar valence and arousal ratings, and 
 In order to obtain a tweet-level sentiment, we did the following: (i) find the words in the tweet that are in the expanded ANEW (ANSW) dictionary; (ii) If the tweet has 1 or less words in the dictionary, classify it as a neutral sentiment; (iii) Else, statistically average the word's valence and arousal. Our statistical average function was a weighted average, using the frequency of a word as the weight of that emotion. Thus a word that was seen $100$ times in ANEW carries the double emotion than one only seen $50$ times. 
 
 \section{Results}
+\subsection{By Language}
+We obtained arousal and valence ratings for all the tweets. One out of every four tweets ($24.498\%$) in English had two or more words with emotion (i.e., found in the expanded ANEW dictionary). In contrast, only $12.923\%$ had two or more words in the Spanish expanded dictionary. Figure \ref{fig:distrEmolang} shows the distribution of number of dictionary words found in the tweets according to their language. There was no significant difference in the distributions of emotional words in tweets (KS-test, $p > 0.05$)
 
+\begin{figure}[tb]
+	\centering
+	\includegraphics[scale=.6]{distr_Emotion_lang}
+	\caption{Distribution of words found in ANEW and ANSW}
+	\label{fig:distrEmolang}
+\end{figure}
+
+\subsubsection{By Geography}
 
 \section{Conclusion}
 
