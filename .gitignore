@@ -1,5 +1,4 @@
-data/*
-!data/Tweets_Valence_Arousal_*.tsv
+data/
 
 scripts/reverseGeolocation.sh
 

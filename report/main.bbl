@@ -1,0 +1,49 @@
+\begin{thebibliography}{1}
+
+\bibitem{bradley1999affective}
+Margaret~M Bradley and Peter~J Lang.
+\newblock Affective norms for english words (anew): Instruction manual and
+  affective ratings.
+\newblock Technical report, Technical Report C-1, The Center for Research in
+  Psychophysiology, University of Florida, 1999.
+
+\bibitem{JMLR:v15:delgado14a}
+Manuel Fern\'{a}ndez-Delgado, Eva Cernadas, Sen\'{e}n Barro, and Dinani Amorim.
+\newblock Do we need hundreds of classifiers to solve real world classification
+  problems?
+\newblock {\em Journal of Machine Learning Research}, 15:3133--3181, 2014.
+
+\bibitem{malandrakis_sail_2014}
+{Nikolaos} Malandrakis, {Michael} {Falcone}, {Colin} {Vaz}, {Jesse} {Bisogni},
+  {Alexandros} {Potamianos}, and {Shrikanth} {Narayanan}.
+\newblock {SAIL}: {Sentiment} {Analysis} using {Semantic} {Similarity} and
+  {Contrast}.
+\newblock page 512.
+
+\bibitem{mikolov2013distributed}
+Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg~S Corrado, and Jeff Dean.
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In {\em Advances in neural information processing systems}, pages
+  3111--3119, 2013.
+
+\bibitem{DBLP:journals/corr/MorstatterPLC13}
+Fred Morstatter, J{\"{u}}rgen Pfeffer, Huan Liu, and Kathleen~M. Carley.
+\newblock Is the sample good enough? comparing data from twitter's streaming
+  {API} with twitter's firehose.
+\newblock {\em CoRR}, abs/1306.5204, 2013.
+
+\bibitem{Olteanu2015}
+Alexandra Olteanu, Sarah Vieweg, and Carlos Castillo.
+\newblock What to expect when the unexpected happens: Social media
+  communications across crises.
+\newblock In {\em Proceedings of the 18th {ACM} Conference on Computer
+  Supported Cooperative Work {\&} Social Computing, {CSCW} 2015, Vancouver, BC,
+  Canada, March 14 - 18, 2015}.
+
+\bibitem{redondo2007spanish}
+Jaime Redondo, Isabel Fraga, Isabel Padr{\'o}n, and Montserrat Comesa{\~n}a.
+\newblock The spanish adaptation of anew (affective norms for english words).
+\newblock {\em Behavior research methods}, 39(3):600--605, 2007.
+
+\end{thebibliography}

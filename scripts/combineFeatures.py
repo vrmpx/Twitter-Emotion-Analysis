@@ -20,10 +20,9 @@ def mapper(line):
 			Mv = sum([f * m for f, (m, s) in zip(freq, zip(valence, valence_std))]) / sum(freq)
 			Ma = sum([f * m for f, (m, s) in zip(freq, zip(arousal, arousal_std))]) / sum(freq)
 
-
 			return "{}\t{}\t{}\t{}\t{}".format(tweetID, from_user_id, created_at, Mv, Ma)
 
-		return "{}\t{}\t{}\t{}".format(tweetID, from_user_id, created_at, "Not enough samples")
+		return "{}\t{}\t{}\t{}\t{}".format(tweetID, from_user_id, created_at, "0.0", "0.0")
 
 	except Exception, e:
 		warning("Error in line: {}, {}".format(line, e))
@@ -31,7 +30,7 @@ def mapper(line):
 
 pool = Pool(4)
 header = True
-with open('../data/EmotionSeries/TweetsEmotion_ES.tsv') as inpt:
+with open('../data/EmotionSeries/TweetsEmotion_EN.tsv') as inpt:
 
 	if header:
 		next(inpt)
