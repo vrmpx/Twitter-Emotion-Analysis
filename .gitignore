@@ -1,4 +1,7 @@
 data/
+!data/expandedANEW.csv
+!data/expandedANSW.csv
+
 
 scripts/reverseGeolocation.sh
 
