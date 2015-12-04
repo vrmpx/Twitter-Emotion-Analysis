@@ -18,7 +18,7 @@ Manuel Fern\'{a}ndez-Delgado, Eva Cernadas, Sen\'{e}n Barro, and Dinani Amorim.
   {Alexandros} {Potamianos}, and {Shrikanth} {Narayanan}.
 \newblock {SAIL}: {Sentiment} {Analysis} using {Semantic} {Similarity} and
   {Contrast}.
-\newblock page 512.
+\newblock {\em {SemEval} 2014}, page 512.
 
 \bibitem{mikolov2013distributed}
 Tomas Mikolov, Ilya Sutskever, Kai Chen, Greg~S Corrado, and Jeff Dean.

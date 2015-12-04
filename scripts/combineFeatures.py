@@ -29,8 +29,8 @@ def mapper(line):
 
 
 pool = Pool(4)
-header = True
-with open('../data/EmotionSeries/TweetsEmotion_EN.tsv') as inpt:
+header = False
+with open('../demo/ObamaTweets_valence_arousal.tsv') as inpt:
 
 	if header:
 		next(inpt)

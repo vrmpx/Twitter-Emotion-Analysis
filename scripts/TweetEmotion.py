@@ -4,7 +4,7 @@ import sys
 
 expanded_anew = {}
 i = 0
-with open('../data/expandedANSW.csv') as inpt:
+with open('../data/expandedANEW.csv') as inpt:
 	for line in inpt:
 		if i == 0:
 			i = 1
@@ -25,7 +25,7 @@ def process_line(line):
 		warning("Error in line: {}, {}".format(line, e))
 
 pool = Pool(4)
-with open('../data/tweets_users_date_ES.tsv.preprocessed') as inpt:
+with open('../demo/ObamaTweets_bydate.tsv.neg.preprocessed') as inpt:
 	results = pool.map(process_line, inpt, 4)
 
 for r in results:

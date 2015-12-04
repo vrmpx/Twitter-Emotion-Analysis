@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  7 NOV 2015 14:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  1 DEC 2015 15:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**main.tex -recorder
+**main.tex
 (./main.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
@@ -238,14 +238,15 @@ Missing character: There is no Â in font cmr10!
 Missing character: There is no º in font cmr10!
  [1
 
-{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<imgs/distr_Emotion_lang.png, id=19, 576.1525pt x 457.71pt>
+{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+
+<imgs/distr_Emotion_lang.png, id=22, 576.1525pt x 457.71pt>
 File: imgs/distr_Emotion_lang.png Graphic file (type png)
 
 <use imgs/distr_Emotion_lang.png>
-Package pdftex.def Info: imgs/distr_Emotion_lang.png used on input line 59.
+Package pdftex.def Info: imgs/distr_Emotion_lang.png used on input line 61.
 (pdftex.def)             Requested size: 345.69415pt x 274.62813pt.
- (./main.bbl [3] [4 <./imgs/distr_Emotion_lang.png>]) [5] (./main.aux) ) 
+ (./main.bbl [4 <./imgs/distr_Emotion_lang.png>]) [5] (./main.aux) ) 
 Here is how much of TeX's memory you used:
  2569 strings out of 493089
  34090 string characters out of 6134842
@@ -253,20 +254,20 @@ Here is how much of TeX's memory you used:
  6004 multiletter control sequences out of 15000+600000
  14363 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,24p,885b,258s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on main.pdf (5 pages, 149064 bytes).
+ 37i,8n,24p,1164b,247s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on main.pdf (5 pages, 151730 bytes).
 PDF statistics:
  67 PDF objects out of 1000 (max. 8388607)
  46 compressed objects within 1 object stream
